@@ -18,7 +18,7 @@
 
 💻 **DESARROLLADOR BACKEND** enfocado en construir APIs robustas, escalables y de alto rendimiento que impulsan experiencias digitales excepcionales
 
-🚀 **+4 años de experiencia** en desarrollo de software
+🚀 **+2 años de experiencia** en desarrollo de software
 
 🏗️ **Mi pasión:** Crear arquitecturas sólidas que impulsan experiencias digitales excepcionales y código que otros desarrolladores disfruten mantener
 
