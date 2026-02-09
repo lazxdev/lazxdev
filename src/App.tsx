@@ -1,0 +1,22 @@
+import { useState } from 'react';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import {About} from "./components/About.tsx";
+import { Skills } from "./components/Skills.tsx";
+import { Experience } from "./components/Experience.tsx";
+
+function App() {
+    const [darkMode, setDarkMode] = useState(false);
+
+    return (
+        <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-[#f5f3ef] text-gray-900'} transition-colors duration-300`}>
+            <Header darkMode={darkMode} onToggleDarkMode={() => setDarkMode(!darkMode)} />
+            <Hero />
+            <About />
+            <Skills />
+            <Experience />
+        </div>
+    );
+}
+
+export default App;
