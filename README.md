@@ -41,21 +41,21 @@
 <h3>Frameworks & Librerías</h3>
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,nest,express,nodejs,hibernate,prisma&perline=9" />
+    <img src="https://skillicons.dev/icons?i=spring,nest,express,nodejs&perline=9" />
   </a>
 </p>
 
 <h3>Bases de Datos</h3>
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis&perline=9" />
+    <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis,hibernate,prisma&perline=9" />
   </a>
 </p>
 
 <h3>DevOps & Herramientas</h3>
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,git,github,maven,gradle,postman,linux,bash&perline=9" />
+    <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,maven,gradle,postman,linux&perline=9" />
   </a>
 </p>
 
