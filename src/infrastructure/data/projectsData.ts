@@ -7,7 +7,7 @@ export const projectsData: Project[] = [
             "Microservicio de autenticacion y autorizacion.",
         tags: ["Spring Boot", "Java", "JWT", "PostgreSQL", "Docker", "Git"],
         image: "/auth_service_project.png",
-        href: "https://auth-service-hexagonal.onrender.com",
+        href: "https://auth-service-hexagonal.onrender.com/swagger-ui/index.html",
         repo: "https://github.com/lazxdev/auth-service-hexagonal",
     },
     {
