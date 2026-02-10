@@ -12,11 +12,14 @@ export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
                 <div className="text-xl font-mono">&lt;LC/&gt;</div>
 
                 <div className="flex items-center gap-8">
+                    <a href="#experience" className="text-sm hover:opacity-70 transition-opacity">
+                        Experiencia
+                    </a>
                     <a href="#about" className="text-sm hover:opacity-70 transition-opacity">
-                        Acerca de
+                        Sobre mí
                     </a>
                     <a href="#work" className="text-sm hover:opacity-70 transition-opacity">
-                        Trabajo
+                        Proyectos
                     </a>
                     <a href="#contact" className="text-sm hover:opacity-70 transition-opacity">
                         Contacto

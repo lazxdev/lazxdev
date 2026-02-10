@@ -1,6 +1,6 @@
 export function About() {
     return (
-        <section className="max-w-6xl mx-auto px-6 py-20">
+        <section className="max-w-6xl mx-auto px-6 py-20" id="about">
             <div className="flex justify-center mb-12">
                 <a href="#about" className="text-xs text-gray-800 dark:text-gray-400 uppercase tracking-widest border border-gray-300 dark:border-gray-600 px-3 py-1 rounded-full hover:opacity-70 transition-opacity">
                     Sobre mí
