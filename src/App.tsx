@@ -5,6 +5,7 @@ import {About} from "./components/About.tsx";
 import { Skills } from "./components/Skills.tsx";
 import { Experience } from "./components/Experience.tsx";
 import { Project } from "./components/Project.tsx";
+import { Footer } from "./components/Footer.tsx";
 
 function App() {
     const [darkMode, setDarkMode] = useState(false);
@@ -17,6 +18,7 @@ function App() {
             <Skills />
             <Experience />
             <Project />
+            <Footer />
         </div>
     );
 }
