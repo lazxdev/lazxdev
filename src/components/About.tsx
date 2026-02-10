@@ -2,9 +2,9 @@ export function About() {
     return (
         <section className="max-w-6xl mx-auto px-6 py-20" id="about">
             <div className="flex justify-center mb-12">
-                <a href="#about" className="text-xs text-gray-800 dark:text-gray-400 uppercase tracking-widest border border-gray-300 dark:border-gray-600 px-3 py-1 rounded-full hover:opacity-70 transition-opacity">
+                <span className="text-xs text-gray-800 dark:text-gray-400 uppercase tracking-widest border border-gray-300 dark:border-gray-600 px-3 py-1 rounded-full">
                     Sobre mí
-                </a>
+                </span>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -20,24 +20,35 @@ export function About() {
 
                 <div>
                     <h2 className="text-4xl font-bold mb-8">
-                        ¿Curioso sobre mí? Aquí lo tienes:
+                        Aquí un breve resumen sobre mí:
                     </h2>
 
                     <div className="space-y-4 text-gray-900 dark:text-gray-300 leading-relaxed">
                         <p>
-                            Soy un desarrollador apasionado, de formación autodidacta, que se especializa en desarrollo backend con Spring. Me entusiasma dar vida a la lógica empresarial y arquitectura de los productos digitales. La escalabilidad, el rendimiento de las APIs y escribir código limpio, mantenible y eficiente son temas que me interesan profundamente.
+                            Soy desarrollador backend con más de dos años de experiencia profesional en el
+                            desarrollo de aplicaciones empresariales, especializado en Java y el ecosistema Spring. Me motiva
+                            construir la lógica de negocio y la arquitectura que sostiene productos digitales escalables, seguros
+                            y mantenibles, cuidando especialmente el rendimiento de las APIs y la calidad del código.
                         </p>
 
                         <p>
-                            Comencé mi camino como desarrollador backend en 2021 de forma autodidacta, y desde mi graduación en 2023 he continuado creciendo y evolucionando profesionalmente, enfrentándome a desafíos técnicos complejos y profundizando en las mejores prácticas del desarrollo con Java y Spring. He tenido la oportunidad de trabajar con tecnologías diversas como Spring Boot, Spring Security, Spring Data JPA, PostgreSQL, y aprendiendo constantemente sobre arquitecturas de microservicios y sistemas distribuidos.
+                            Inicié mi camino en el desarrollo backend de forma autodidacta en 2021 y, desde mi incorporación al entorno
+                            profesional en 2023, he trabajado en el diseño, desarrollo y mantenimiento de APIs REST utilizando Spring Boot,
+                            Spring MVC y Spring WebFlux. Tengo experiencia implementando mecanismos de seguridad y autenticación con Spring
+                            Security, JWT e integración con WSO2 Identity Server, así como en el diseño de la capa de persistencia con JPA/Hibernate
+                            y bases de datos relacionales como PostgreSQL y MySQL.
                         </p>
 
                         <p>
-                            Disfruto especialmente del proceso de transformar requisitos empresariales en soluciones técnicas, trabajando en el ciclo completo del desarrollo backend desde el diseño de la base de datos hasta la implementación de APIs seguras y documentadas.
+                            He participado en proyectos desarrollados bajo metodologías ágiles (SCRUM), colaborando con equipos multidisciplinarios,
+                            utilizando control de versiones con Git y GitLab, y contenedores Docker para entornos de desarrollo y despliegue. Además,
+                            cuento con experiencia complementaria en el ecosistema Node.js, trabajando con NestJS y Express.
                         </p>
 
                         <p>
-                            Cuando no estoy inmerso en código, puedes encontrarme explorando nuevas tecnologías en comunidades de desarrolladores, contribuyendo a proyectos open source o profundizando en arquitectura de software. Puedes seguir mi evolución profesional en GitHub, donde comparto proyectos de aprendizaje, o en LinkedIn donde conectó con la comunidad técnica.
+                            Disfruto especialmente transformar requerimientos funcionales y de negocio en soluciones técnicas claras y bien estructuradas,
+                            abarcando todo el ciclo del desarrollo backend: desde el modelado de datos y la arquitectura hasta la implementación de APIs seguras,
+                            documentadas y listas para producción.
                         </p>
                     </div>
                 </div>

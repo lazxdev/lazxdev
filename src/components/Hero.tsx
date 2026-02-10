@@ -10,11 +10,11 @@ export function Hero() {
                     </h1>
 
                     <p className="text-gray-900 dark:text-gray-300 leading-relaxed mb-8">
-                        Soy un desarrollador backend especializado en Spring, enfocado en construir APIs robustas,
-                        escalables y de alto rendimiento que impulsan experiencias digitales excepcionales. Aunque llevo
-                        desarrollando aplicaciones backend de forma profesional por más de 2 años, mi pasión por la
-                        programación comenzó como autodidacta y todavía abordo cada desafío técnico con la misma
-                        curiosidad y entusiasmo que el primer día.
+                        Soy un desarrollador backend con más de 2 años de experiencia profesional en el desarrollo de aplicaciones
+                        empresariales utilizando Java y Spring Boot, así como tecnologías Node.js con NestJS y Express. Especializado en
+                        el diseño y desarrollo de APIs REST, implementación de mecanismos de seguridad y autenticación, trabajo con
+                        arquitecturas escalables y mantenibles. Experiencia en entornos colaborativos bajo metodologías ágiles,
+                        aplicando buenas prácticas de desarrollo, control de versiones y mejora continua del software.
                     </p>
 
                     <div className="flex items-center gap-2 text-gray-900 dark:text-gray-300 mb-8">

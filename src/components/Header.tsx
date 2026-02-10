@@ -21,7 +21,10 @@ export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
                     <a href="#work" className="text-sm hover:opacity-70 transition-opacity">
                         Proyectos
                     </a>
-                    <a href="#contact" className="text-sm hover:opacity-70 transition-opacity">
+                    <a
+                        href="mailto:lazaromanuel65@gmail.com"
+                        className="text-sm hover:opacity-70 transition-opacity"
+                    >
                         Contacto
                     </a>
 
@@ -33,9 +36,13 @@ export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
                         {darkMode ? <Moon size={20} /> : <Sun size={20} />}
                     </button>
 
-                    <button className="bg-gray-900 text-white px-5 py-2 rounded-lg text-sm hover:bg-gray-800 transition-colors dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-200">
+                    <a
+                        href="/cv.pdf"
+                        download
+                        className="bg-gray-900 text-white px-5 py-2 rounded-lg text-sm hover:bg-gray-800 transition-colors dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-200"
+                    >
                         Descargar CV
-                    </button>
+                    </a>
                 </div>
             </nav>
         </header>

@@ -42,7 +42,7 @@ export function Experience() {
                         className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm px-6 py-6"
                     >
                         <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-                            <div className="text-lg font-semibold text-emerald-600">
+                            <div className="text-lg font-semibold text-gray-900 dark:text-gray-100">
                                 {experience.company}
                             </div>
 

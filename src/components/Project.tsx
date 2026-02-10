@@ -31,7 +31,7 @@ export function Project() {
 
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold mb-3">
-                    Some of the noteworthy projects I have built:
+                    Algunos de los proyectos notables que he construido:
                 </h2>
             </div>
 
