@@ -3,9 +3,11 @@ import { Sun, Moon } from 'lucide-react';
 interface HeaderProps {
     darkMode: boolean;
     onToggleDarkMode: () => void;
+    contactEmail: string;
+    cvUrl: string;
 }
 
-export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
+export function Header({ darkMode, onToggleDarkMode, contactEmail, cvUrl }: HeaderProps) {
     return (
         <header className="sticky top-0 z-50 bg-[#f5f3ef]/90 dark:bg-gray-900/90 backdrop-blur">
             <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -22,7 +24,7 @@ export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
                         Proyectos
                     </a>
                     <a
-                        href="mailto:lazaromanuel65@gmail.com"
+                        href={`mailto:${contactEmail}`}
                         className="text-sm hover:opacity-70 transition-opacity"
                     >
                         Contacto
@@ -37,7 +39,7 @@ export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
                     </button>
 
                     <a
-                        href="/cv.pdf"
+                        href={cvUrl}
                         download
                         className="bg-gray-900 text-white px-5 py-2 rounded-lg text-sm hover:bg-gray-800 transition-colors dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-200"
                     >
