@@ -10,7 +10,9 @@ import { Project } from "../presentation/components/Project";
 import { Skills } from "../presentation/components/Skills";
 
 function App() {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(() =>
+        window.matchMedia("(prefers-color-scheme: dark)").matches,
+    );
     const portfolio = useMemo(
         () => getPortfolio(new PortfolioRepositoryImpl()),
         [],
