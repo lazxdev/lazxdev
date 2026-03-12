@@ -1,14 +1,17 @@
+import type { TFunction } from "i18next";
 import type { Portfolio } from "../../domain/entities/Portfolio";
-import { aboutData } from "./aboutData";
-import { experienceData } from "./experienceData";
-import { profileData } from "./profileData";
-import { projectsData } from "./projectsData";
-import { skillsData } from "./skillsData";
+import { getAboutData } from "./aboutData";
+import { getExperienceData } from "./experienceData";
+import { getProfileData } from "./profileData";
+import { getProjectsData } from "./projectsData";
+import { getSkillsData } from "./skillsData";
 
-export const portfolioData: Portfolio = {
-    profile: profileData,
-    about: aboutData,
-    skills: skillsData,
-    experiences: experienceData,
-    projects: projectsData,
+export const getPortfolioData = (t: TFunction): Portfolio => {
+    return {
+        profile: getProfileData(t),
+        about: getAboutData(t),
+        skills: getSkillsData(t),
+        experiences: getExperienceData(t),
+        projects: getProjectsData(t),
+    };
 };

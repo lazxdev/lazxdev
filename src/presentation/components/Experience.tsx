@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { Experience as ExperienceData } from "../../domain/entities/Experience";
 
 interface ExperienceProps {
@@ -5,18 +6,18 @@ interface ExperienceProps {
 }
 
 export function Experience({ experiences }: ExperienceProps) {
+    const { t } = useTranslation();
+
     return (
         <section className="max-w-6xl mx-auto px-6 py-20" id="experience">
             <div className="flex justify-center mb-6">
                 <span className="text-xs text-gray-800 dark:text-gray-400 uppercase tracking-widest border border-gray-300 dark:border-gray-600 px-3 py-1 rounded-full">
-                    Experiencia laboral
+                    {t("experience.badge")}
                 </span>
             </div>
 
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-3">
-                    Aquí hay un resumen rápido de mis experiencias más recientes:
-                </h2>
+                <h2 className="text-3xl font-bold mb-3">{t("experience.title")}</h2>
             </div>
 
             <div className="space-y-6">

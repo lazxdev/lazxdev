@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { Skill } from "../../domain/entities/Skill";
 
 interface SkillsProps {
@@ -5,18 +6,18 @@ interface SkillsProps {
 }
 
 export function Skills({ skills }: SkillsProps) {
+    const { t } = useTranslation();
+
     return (
         <section className="max-w-6xl mx-auto px-6 py-20" id="skills">
             <div className="flex justify-center mb-6">
                 <span className="text-xs text-gray-800 dark:text-gray-400 uppercase tracking-widest border border-gray-300 dark:border-gray-600 px-3 py-1 rounded-full">
-                    Habilidades
+                    {t("skills.badge")}
                 </span>
             </div>
 
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-3">
-                    Las habilidades, herramientas y tecnologias en las que destaco:
-                </h2>
+                <h2 className="text-3xl font-bold mb-3">{t("skills.title")}</h2>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-6">

@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react';
-import { Sun, Moon } from 'lucide-react';
+import { useMemo, useState } from "react";
+import { Sun, Moon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface HeaderProps {
     darkMode: boolean;
@@ -8,21 +9,30 @@ interface HeaderProps {
     cvUrl: string;
 }
 
-const navLinkClassName = 'text-sm hover:opacity-70 transition-opacity';
-const actionButtonClassName = 'p-2 hover:opacity-70 transition-opacity';
+const navLinkClassName = "text-sm hover:opacity-70 transition-opacity";
+const actionButtonClassName = "p-2 hover:opacity-70 transition-opacity";
 const cvButtonClassName =
-    'bg-gray-900 text-white px-5 py-2 rounded-lg text-sm hover:bg-gray-800 transition-colors dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-200';
+    "bg-gray-900 text-white px-5 py-2 rounded-lg text-sm hover:bg-gray-800 transition-colors dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-200";
+const langButtonClassName =
+    "px-3 py-2 rounded-lg text-xs font-semibold border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:border-gray-300 dark:hover:border-gray-500 transition-colors";
+
+const getLocale = (language: string | undefined) =>
+    language?.toLowerCase().startsWith("es") ? "es" : "en";
 
 export function Header({ darkMode, onToggleDarkMode, contactEmail, cvUrl }: HeaderProps) {
+    const { t, i18n } = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const currentLocale = getLocale(i18n.resolvedLanguage ?? i18n.language);
+    const nextLocale = currentLocale === "es" ? "en" : "es";
+
     const navItems = useMemo(
         () => [
-            { href: '#experience', label: 'Experiencia' },
-            { href: '#about', label: 'Sobre mí' },
-            { href: '#work', label: 'Proyectos' },
-            { href: `mailto:${contactEmail}`, label: 'Contacto' },
+            { href: "#experience", label: t("nav.experience") },
+            { href: "#about", label: t("nav.about") },
+            { href: "#work", label: t("nav.work") },
+            { href: `mailto:${contactEmail}`, label: t("nav.contact") },
         ],
-        [contactEmail]
+        [contactEmail, t],
     );
 
     const closeMenu = () => setIsMenuOpen(false);
@@ -43,20 +53,30 @@ export function Header({ darkMode, onToggleDarkMode, contactEmail, cvUrl }: Head
                     <button
                         onClick={onToggleDarkMode}
                         className={actionButtonClassName}
-                        aria-label="Toggle theme"
+                        aria-label={t("a11y.toggleTheme")}
                     >
                         {darkMode ? <Moon size={20} /> : <Sun size={20} />}
                     </button>
 
+                    <button
+                        onClick={() => i18n.changeLanguage(nextLocale)}
+                        className={langButtonClassName}
+                        aria-label={t("a11y.languageToggle", {
+                            language: t(`language.${nextLocale}`),
+                        })}
+                    >
+                        {nextLocale.toUpperCase()}
+                    </button>
+
                     <a href={cvUrl} download className={cvButtonClassName}>
-                        Descargar CV
+                        {t("header.downloadCv")}
                     </a>
                 </div>
 
                 <button
                     type="button"
                     className="md:hidden p-2 hover:opacity-70 transition-opacity"
-                    aria-label="Toggle menu"
+                    aria-label={t("a11y.toggleMenu")}
                     aria-expanded={isMenuOpen}
                     onClick={toggleMenu}
                 >
@@ -84,13 +104,23 @@ export function Header({ darkMode, onToggleDarkMode, contactEmail, cvUrl }: Head
                             <button
                                 onClick={onToggleDarkMode}
                                 className={actionButtonClassName}
-                                aria-label="Toggle theme"
+                                aria-label={t("a11y.toggleTheme")}
                             >
                                 {darkMode ? <Moon size={20} /> : <Sun size={20} />}
                             </button>
 
+                            <button
+                                onClick={() => i18n.changeLanguage(nextLocale)}
+                                className={langButtonClassName}
+                                aria-label={t("a11y.languageToggle", {
+                                    language: t(`language.${nextLocale}`),
+                                })}
+                            >
+                                {nextLocale.toUpperCase()}
+                            </button>
+
                             <a href={cvUrl} download className={cvButtonClassName}>
-                                Descargar CV
+                                {t("header.downloadCv")}
                             </a>
                         </div>
                     </div>

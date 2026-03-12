@@ -1,0 +1,123 @@
+{
+    "a11y": {
+        "toggleTheme": "Toggle theme",
+        "toggleMenu": "Open menu",
+        "languageToggle": "Switch to {{language}}"
+    },
+    "language": {
+        "es": "Spanish",
+        "en": "English"
+    },
+    "nav": {
+        "experience": "Experience",
+        "about": "About",
+        "work": "Projects",
+        "contact": "Contact"
+    },
+    "header": {
+        "downloadCv": "Download CV"
+    },
+    "profile": {
+        "headline": "Hi, I'm",
+        "name": "Lázaro",
+        "summary": "I'm a backend developer with over two years of professional experience building enterprise applications using Java and Spring Boot, as well as Node.js technologies with NestJS and Express. I specialize in designing and developing REST APIs, implementing security and authentication mechanisms, and working with scalable, maintainable architectures. I have experience in collaborative, agile environments, applying best practices in development, version control, and continuous software improvement.",
+        "location": "Havana, Cuba",
+        "heroImage": "/lazaro_hero.png",
+        "contactEmail": "lazaromanuel65@gmail.com",
+        "cvUrl": "/cv.pdf",
+        "socials": [
+            { "provider": "github", "url": "https://github.com/lazxdev", "label": "GitHub" },
+            { "provider": "twitter", "url": "https://x.com/lazxdev", "label": "Twitter" },
+            { "provider": "linkedin", "url": "https://www.linkedin.com/in/l%C3%A1zaro-campos-858864298/", "label": "LinkedIn" }
+        ]
+    },
+    "about": {
+        "badge": "About",
+        "imageAlt": "About",
+        "title": "Here's a brief summary about me:",
+        "image": "/lazaro_about.png",
+        "paragraphs": [
+            "I'm a backend developer with over two years of professional experience building enterprise applications, specialized in Java and the Spring ecosystem. I enjoy crafting the business logic and architecture behind scalable, secure, and maintainable digital products, with a strong focus on API performance and code quality.",
+            "I started my backend journey as a self-taught developer in 2021 and, since joining the professional environment in 2023, I've worked on the design, development, and maintenance of REST APIs using Spring Boot, Spring MVC, and Spring WebFlux. I have experience implementing security and authentication with Spring Security, JWT, and WSO2 Identity Server, as well as designing the persistence layer with JPA/Hibernate and relational databases like PostgreSQL and MySQL.",
+            "I've contributed to projects developed under agile methodologies (SCRUM), collaborating with multidisciplinary teams, using Git and GitLab for version control, and Docker containers for development and deployment environments. I also have complementary experience in the Node.js ecosystem, working with NestJS and Express.",
+            "I especially enjoy turning functional and business requirements into clear, well-structured technical solutions, covering the full backend development cycle: from data modeling and architecture to implementing secure, documented, production-ready APIs."
+        ]
+    },
+    "experience": {
+        "badge": "Work Experience",
+        "title": "Here is a quick summary of my most recent experience:",
+        "items": [
+            {
+                "company": "Xetid",
+                "role": "Junior Backend Developer",
+                "dates": "Oct 2023 - Present",
+                "bullets": [
+                    "Developed and maintained REST APIs for enterprise applications using Java and Spring Boot.",
+                    "Implemented security and access control with Spring Security, JWT-based authentication, and WSO2 Identity Server integration for identity management.",
+                    "Designed and managed the persistence layer using JPA/Hibernate, working with PostgreSQL and MySQL databases.",
+                    "Built backend controllers and services with Spring MVC and Spring WebFlux, applying reactive programming in specific services.",
+                    "Containerized applications with Docker for development and deployment environments.",
+                    "Used Git and GitLab for version control, branch management, code reviews, and collaborative workflows.",
+                    "Actively collaborated in multidisciplinary teams under agile methodologies (SCRUM), contributing to technical and functional requirements analysis."
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "badge": "Projects",
+        "title": "Some of the notable projects I've built:",
+        "previewAlt": "{{title}} preview",
+        "open": "Open {{title}}",
+        "openRepo": "Open {{title}} repository",
+        "items": [
+            {
+                "title": "Auth Service Hexagonal",
+                "description": "Authentication and authorization microservice.",
+                "tags": ["Spring Boot", "Java", "JWT", "PostgreSQL", "Docker", "Git"],
+                "image": "/auth_service_project.png",
+                "href": "https://auth-service-hexagonal.onrender.com/swagger-ui/index.html",
+                "repo": "https://github.com/lazxdev/auth-service-hexagonal"
+            },
+            {
+                "title": "JWT Toolkit",
+                "description": "Lightweight, open-source web app to decode, encode, and explore JSON Web Tokens (JWT) directly in your browser.",
+                "tags": ["React", "Typescript", "JWT", "HTML", "CSS", "Web Crypto API", "Git"],
+                "image": "/jwt_toolkit_project.png",
+                "href": "https://jwtoolkit.vercel.app/",
+                "repo": "https://github.com/lazxdev/Jwt-Toolkit"
+            }
+        ]
+    },
+    "skills": {
+        "badge": "Skills",
+        "title": "The skills, tools, and technologies I excel at:",
+        "items": [
+            { "name": "Java", "icon": "java" },
+            { "name": "Typescript", "icon": "ts" },
+            { "name": "Javascript", "icon": "js" },
+            { "name": "HTML", "icon": "html" },
+            { "name": "CSS", "icon": "css" },
+            { "name": "Spring", "icon": "spring" },
+            { "name": "Nest.js", "icon": "nestjs" },
+            { "name": "Express", "icon": "express" },
+            { "name": "Node.js", "icon": "nodejs" },
+            { "name": "PostgreSQL", "icon": "postgres" },
+            { "name": "Mysql", "icon": "mysql" },
+            { "name": "MongoDB", "icon": "mongodb" },
+            { "name": "Redis", "icon": "redis" },
+            { "name": "Hibernate", "icon": "hibernate" },
+            { "name": "Prisma", "icon": "prisma" },
+            { "name": "Docker", "icon": "docker" },
+            { "name": "Git", "icon": "git" },
+            { "name": "Gitlab", "icon": "gitlab" },
+            { "name": "GitHub", "icon": "github" },
+            { "name": "Maven", "icon": "maven" },
+            { "name": "Gradle", "icon": "gradle" },
+            { "name": "Postman", "icon": "postman" },
+            { "name": "Linux", "icon": "linux" }
+        ]
+    },
+    "footer": {
+        "rights": "All rights reserved"
+    }
+}

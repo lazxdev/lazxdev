@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { getPortfolio } from "../application/use-cases/getPortfolio";
 import { PortfolioRepositoryImpl } from "../infrastructure/repositories/PortfolioRepositoryImpl";
 import { About } from "../presentation/components/About";
@@ -10,12 +11,13 @@ import { Project } from "../presentation/components/Project";
 import { Skills } from "../presentation/components/Skills";
 
 function App() {
+    const { t, i18n } = useTranslation();
     const [darkMode, setDarkMode] = useState(() =>
         window.matchMedia("(prefers-color-scheme: dark)").matches,
     );
     const portfolio = useMemo(
-        () => getPortfolio(new PortfolioRepositoryImpl()),
-        [],
+        () => getPortfolio(new PortfolioRepositoryImpl(t)),
+        [t, i18n.resolvedLanguage],
     );
 
     return (

@@ -1,22 +1,6 @@
+import type { TFunction } from "i18next";
 import type { Project } from "../../domain/entities/Project";
 
-export const projectsData: Project[] = [
-    {
-        title: "Auth Service Hexagonal",
-        description:
-            "Microservicio de autenticacion y autorizacion.",
-        tags: ["Spring Boot", "Java", "JWT", "PostgreSQL", "Docker", "Git"],
-        image: "/auth_service_project.png",
-        href: "https://auth-service-hexagonal.onrender.com/swagger-ui/index.html",
-        repo: "https://github.com/lazxdev/auth-service-hexagonal",
-    },
-    {
-        title: "JWT Toolkit",
-        description:
-            "Aplicación web ligera y de código abierto para decodificar, codificar y explorar JSON Web Tokens (JWT) desde tu navegador.",
-        tags: ["React", "Typescript", "JWT", "HTML", "CSS", "Web Crypto API", "Git"],
-        image: "/jwt_toolkit_project.png",
-        href: "https://jwtoolkit.vercel.app/",
-        repo: "https://github.com/lazxdev/Jwt-Toolkit",
-    },
-];
+export const getProjectsData = (t: TFunction): Project[] => {
+    return t("projects.items", { returnObjects: true }) as Project[];
+};

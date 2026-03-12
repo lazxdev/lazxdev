@@ -1,27 +1,6 @@
+import type { TFunction } from "i18next";
 import type { Skill } from "../../domain/entities/Skill";
 
-export const skillsData: Skill[] = [
-    { name: "Java", icon: "java" },
-    { name: "Typescript", icon: "ts" },
-    { name: "Javascript", icon: "js" },
-    { name: "HTML", icon: "html" },
-    { name: "CSS", icon: "css" },
-    { name: "Spring", icon: "spring" },
-    { name: "Nest.js", icon: "nestjs" },
-    { name: "Express", icon: "express" },
-    { name: "Node.js", icon: "nodejs" },
-    { name: "PostgreSQL", icon: "postgres" },
-    { name: "Mysql", icon: "mysql" },
-    { name: "MongoDB", icon: "mongodb" },
-    { name: "Redis", icon: "redis" },
-    { name: "Hibernate", icon: "hibernate" },
-    { name: "Prisma", icon: "prisma" },
-    { name: "Docker", icon: "docker" },
-    { name: "Git", icon: "git" },
-    { name: "Gitlab", icon: "gitlab" },
-    { name: "GitHub", icon: "github" },
-    { name: "Maven", icon: "maven" },
-    { name: "Gradle", icon: "gradle" },
-    { name: "Postman", icon: "postman" },
-    { name: "Linux", icon: "linux" },
-];
+export const getSkillsData = (t: TFunction): Skill[] => {
+    return t("skills.items", { returnObjects: true }) as Skill[];
+};
