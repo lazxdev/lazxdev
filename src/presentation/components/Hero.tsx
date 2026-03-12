@@ -15,7 +15,7 @@ export function Hero({ profile }: HeroProps) {
     return (
         <main className="max-w-6xl mx-auto px-6 py-16">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-                <div>
+                <div className="order-2 md:order-1">
                     <h1 className="text-5xl font-bold mb-6">
                         {profile.headline} {profile.name}{" "}
                         <span className="inline-block animate-wave">👋</span>
@@ -49,7 +49,7 @@ export function Hero({ profile }: HeroProps) {
                     </div>
                 </div>
 
-                <div className="flex justify-center md:justify-end">
+                <div className="flex justify-center md:justify-end order-1 md:order-2">
                     <div className="w-80 h-80 bg-gray-300 dark:bg-gray-700 rounded-lg overflow-hidden">
                         <img
                             src={profile.heroImage}
