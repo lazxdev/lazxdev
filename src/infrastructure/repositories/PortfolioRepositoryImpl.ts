@@ -4,7 +4,11 @@ import type { TFunction } from "i18next";
 import { getPortfolioData } from "../data/portfolioData";
 
 export class PortfolioRepositoryImpl implements PortfolioRepository {
-    constructor(private t: TFunction) {}
+    private t: TFunction;
+
+    constructor(t: TFunction) {
+        this.t = t;
+    }
 
     getPortfolio(): Portfolio {
         return getPortfolioData(this.t);
