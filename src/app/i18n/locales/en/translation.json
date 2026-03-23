@@ -20,11 +20,11 @@
     "profile": {
         "headline": "Hi, I'm",
         "name": "Lázaro",
-        "summary": "I'm a backend developer with over two years of professional experience building enterprise applications using Java and Spring Boot, as well as Node.js technologies with NestJS and Express. I specialize in designing and developing REST APIs, implementing security and authentication mechanisms, and working with scalable, maintainable architectures. I have experience in collaborative, agile environments, applying best practices in development, version control, and continuous software improvement.",
+        "summary": "Backend Developer specialized in Java and Spring Boot, with experience in REST APIs, authentication, security, and scalable architectures. I also have experience with Node.js, NestJS, and Express in agile environments, applying best development and continuous delivery practices.",
         "location": "Havana, Cuba",
         "heroImage": "/lazaro_hero.png",
         "contactEmail": "lazaromanuel65@gmail.com",
-        "cvUrl": "/cv_en.pdf",
+        "cvUrl": "/CV_EN_Lázaro_Manuel_Campos_Oliva.pdf",
         "socials": [
             {
                 "provider": "github",
@@ -49,10 +49,9 @@
         "title": "Here's a brief summary about me:",
         "image": "/lazaro_about.png",
         "paragraphs": [
-            "I'm a backend developer with over two years of professional experience building enterprise applications, specialized in Java and the Spring ecosystem. I enjoy crafting the business logic and architecture behind scalable, secure, and maintainable digital products, with a strong focus on API performance and code quality.",
-            "I started my backend journey as a self-taught developer in 2021 and, since joining the professional environment in 2023, I've worked on the design, development, and maintenance of REST APIs using Spring Boot, Spring MVC, and Spring WebFlux. I have experience implementing security and authentication with Spring Security, JWT, and WSO2 Identity Server, as well as designing the persistence layer with JPA/Hibernate and relational databases like PostgreSQL and MySQL.",
-            "I've contributed to projects developed under agile methodologies (SCRUM), collaborating with multidisciplinary teams, using Git and GitLab for version control, and Docker containers for development and deployment environments. I also have complementary experience in the Node.js ecosystem, working with NestJS and Express.",
-            "I especially enjoy turning functional and business requirements into clear, well-structured technical solutions, covering the full backend development cycle: from data modeling and architecture to implementing secure, documented, production-ready APIs."
+            "I am a backend developer with over two years of experience building enterprise applications with Java and the Spring ecosystem. I specialize in designing secure, scalable, and maintainable REST APIs, with a strong focus on architecture, performance, and code quality.",
+            "Since 2021, I have developed my backend profile through self-study, and since 2023, I have worked on projects using Spring Boot, Spring MVC, and Spring WebFlux, as well as implementing authentication and security with Spring Security, JWT, and WSO2 Identity Server. I also have experience with JPA/Hibernate, PostgreSQL, MySQL, Docker, Git, GitLab, Scrum, and Node.js technologies such as NestJS and Express.",
+            "I enjoy turning business needs into well-structured technical solutions, from data modeling to building production-ready APIs."
         ]
     },
     "experience": {
@@ -64,13 +63,9 @@
                 "role": "Junior Backend Developer",
                 "dates": "Oct 2023 - Present",
                 "bullets": [
-                    "Developed and maintained REST APIs for enterprise applications using Java and Spring Boot.",
-                    "Implemented security and access control with Spring Security, JWT-based authentication, and WSO2 Identity Server integration for identity management.",
-                    "Designed and managed the persistence layer using JPA/Hibernate, working with PostgreSQL and MySQL databases.",
-                    "Built backend controllers and services with Spring MVC and Spring WebFlux, applying reactive programming in specific services.",
-                    "Containerized applications with Docker for development and deployment environments.",
-                    "Used Git and GitLab for version control, branch management, code reviews, and collaborative workflows.",
-                    "Actively collaborated in multidisciplinary teams under agile methodologies (SCRUM), contributing to technical and functional requirements analysis."
+                    "I migrated SOAP services from WSO2 Integrator to Spring Boot in a remote banking system, modernizing service integration and facilitating its maintenance.",
+                    "I contributed to the migration of a payments platform core from Java 11 to Java 17, supporting the technological update and sustainability of the solution.",
+                    "I currently participate in the development of an offline wallet solution, focused on security, data synchronization, and the validation of reliable payments."
                 ]
             }
         ]
