@@ -24,11 +24,23 @@
         "location": "Havana, Cuba",
         "heroImage": "/lazaro_hero.png",
         "contactEmail": "lazaromanuel65@gmail.com",
-        "cvUrl": "/cv.pdf",
+        "cvUrl": "/cv_en.pdf",
         "socials": [
-            { "provider": "github", "url": "https://github.com/lazxdev", "label": "GitHub" },
-            { "provider": "twitter", "url": "https://x.com/lazxdev", "label": "Twitter" },
-            { "provider": "linkedin", "url": "https://www.linkedin.com/in/l%C3%A1zaro-campos-858864298/", "label": "LinkedIn" }
+            {
+                "provider": "github",
+                "url": "https://github.com/lazxdev",
+                "label": "GitHub"
+            },
+            {
+                "provider": "twitter",
+                "url": "https://x.com/lazxdev",
+                "label": "Twitter"
+            },
+            {
+                "provider": "linkedin",
+                "url": "https://www.linkedin.com/in/l%C3%A1zaro-campos-858864298/",
+                "label": "LinkedIn"
+            }
         ]
     },
     "about": {
@@ -73,7 +85,14 @@
             {
                 "title": "Auth Service Hexagonal",
                 "description": "Authentication and authorization microservice.",
-                "tags": ["Spring Boot", "Java", "JWT", "PostgreSQL", "Docker", "Git"],
+                "tags": [
+                    "Spring Boot",
+                    "Java",
+                    "JWT",
+                    "PostgreSQL",
+                    "Docker",
+                    "Git"
+                ],
                 "image": "/auth_service_project.png",
                 "href": "https://auth-service-hexagonal.onrender.com/swagger-ui/index.html",
                 "repo": "https://github.com/lazxdev/auth-service-hexagonal"
@@ -81,7 +100,15 @@
             {
                 "title": "JWT Toolkit",
                 "description": "Lightweight, open-source web app to decode, encode, and explore JSON Web Tokens (JWT) directly in your browser.",
-                "tags": ["React", "Typescript", "JWT", "HTML", "CSS", "Web Crypto API", "Git"],
+                "tags": [
+                    "React",
+                    "Typescript",
+                    "JWT",
+                    "HTML",
+                    "CSS",
+                    "Web Crypto API",
+                    "Git"
+                ],
                 "image": "/jwt_toolkit_project.png",
                 "href": "https://jwtoolkit.vercel.app/",
                 "repo": "https://github.com/lazxdev/Jwt-Toolkit"
@@ -92,29 +119,98 @@
         "badge": "Skills",
         "title": "The skills, tools, and technologies I excel at:",
         "items": [
-            { "name": "Java", "icon": "java" },
-            { "name": "Typescript", "icon": "ts" },
-            { "name": "Javascript", "icon": "js" },
-            { "name": "HTML", "icon": "html" },
-            { "name": "CSS", "icon": "css" },
-            { "name": "Spring", "icon": "spring" },
-            { "name": "Nest.js", "icon": "nestjs" },
-            { "name": "Express", "icon": "express" },
-            { "name": "Node.js", "icon": "nodejs" },
-            { "name": "PostgreSQL", "icon": "postgres" },
-            { "name": "Mysql", "icon": "mysql" },
-            { "name": "MongoDB", "icon": "mongodb" },
-            { "name": "Redis", "icon": "redis" },
-            { "name": "Hibernate", "icon": "hibernate" },
-            { "name": "Prisma", "icon": "prisma" },
-            { "name": "Docker", "icon": "docker" },
-            { "name": "Git", "icon": "git" },
-            { "name": "Gitlab", "icon": "gitlab" },
-            { "name": "GitHub", "icon": "github" },
-            { "name": "Maven", "icon": "maven" },
-            { "name": "Gradle", "icon": "gradle" },
-            { "name": "Postman", "icon": "postman" },
-            { "name": "Linux", "icon": "linux" }
+            {
+                "name": "Java",
+                "icon": "java"
+            },
+            {
+                "name": "Typescript",
+                "icon": "ts"
+            },
+            {
+                "name": "Javascript",
+                "icon": "js"
+            },
+            {
+                "name": "HTML",
+                "icon": "html"
+            },
+            {
+                "name": "CSS",
+                "icon": "css"
+            },
+            {
+                "name": "Spring",
+                "icon": "spring"
+            },
+            {
+                "name": "Nest.js",
+                "icon": "nestjs"
+            },
+            {
+                "name": "Express",
+                "icon": "express"
+            },
+            {
+                "name": "Node.js",
+                "icon": "nodejs"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "postgres"
+            },
+            {
+                "name": "Mysql",
+                "icon": "mysql"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "mongodb"
+            },
+            {
+                "name": "Redis",
+                "icon": "redis"
+            },
+            {
+                "name": "Hibernate",
+                "icon": "hibernate"
+            },
+            {
+                "name": "Prisma",
+                "icon": "prisma"
+            },
+            {
+                "name": "Docker",
+                "icon": "docker"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Gitlab",
+                "icon": "gitlab"
+            },
+            {
+                "name": "GitHub",
+                "icon": "github"
+            },
+            {
+                "name": "Maven",
+                "icon": "maven"
+            },
+            {
+                "name": "Gradle",
+                "icon": "gradle"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman"
+            },
+            {
+                "name": "Linux",
+                "icon": "linux"
+            }
         ]
     },
     "footer": {
