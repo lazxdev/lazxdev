@@ -78,18 +78,18 @@ export default async function About() {
             <p>
               My interest in programming started at a young age, 
               but everything truly clicked when I discovered Java while creating Minecraft mods. 
-              Since then, I've specialized in backend development, working primarily with Java, 
+              Since then, I&apos;ve specialized in backend development, working primarily with Java, 
               Spring Boot, relational databases, and cloud technologies to build modern applications.
             </p>
             <p>
               Beyond my day job, I enjoy building open-source projects, 
               experimenting with new ideas, and continuously learning about software architecture, 
               distributed systems, and developer tools. I also create content where I document my journey 
-              as a backend developer, share what I'm learning, and talk about technology with the goal of helping 
+              as a backend developer, share what I&apos;m learning, and talk about technology with the goal of helping 
               other developers grow.
             </p>
             <p>
-              When I&apos;m away from my keyboard, you'll probably find me reading about new technologies, 
+              When I&apos;m away from my keyboard, you&apos;ll probably find me reading about new technologies, 
               planning my next side project, or enjoying a good cup of coffee while sketching out new ideas.
             </p>
           </div>
@@ -128,7 +128,7 @@ export default async function About() {
             <p>
               I specialize in backend engineering with Java and Spring Boot, 
               building scalable APIs, designing clean architectures, and working with modern cloud technologies. 
-              But there's always something new to learn. Here are some of the places I've worked.
+              But there&apos;s always something new to learn. Here are some of the places I&apos;ve worked.
             </p>
             <Workplaces items={workplaces} />
           </div>

@@ -1,6 +1,4 @@
 // next.config.js
-const { withContentlayer } = require("next-contentlayer");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
@@ -24,4 +22,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withContentlayer(nextConfig);
+export default nextConfig;
