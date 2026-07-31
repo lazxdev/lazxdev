@@ -12,7 +12,23 @@ import iso8583Analyzer from "public/projects/iso8583-analyzer/iso8583-analyzer.p
 export const metadata: Metadata = {
   title: "Projects | Lazaro Campos",
   description:
-    "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I also share insights on software architecture, backend development, and emerging technologies.",
+    "Explore projects built by Lazaro Campos, including Java, Spring Boot, TypeScript, and full-stack tools for monitoring, authentication, and developer productivity.",
+  alternates: {
+    canonical: "/projects",
+  },
+  openGraph: {
+    title: "Projects | Lazaro Campos",
+    description:
+      "Explore projects built by Lazaro Campos, including Java, Spring Boot, TypeScript, and full-stack tools for monitoring, authentication, and developer productivity.",
+    url: "https://lazxdev.vercel.app/projects",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projects | Lazaro Campos",
+    description:
+      "Explore projects built by Lazaro Campos, including Java, Spring Boot, TypeScript, and full-stack tools for monitoring, authentication, and developer productivity.",
+  },
 };
 
 const projectsList: ProjectItem[] = [

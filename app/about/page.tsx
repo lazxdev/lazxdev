@@ -16,7 +16,23 @@ import Greeting from "./components/Greeting";
 export const metadata: Metadata = {
   title: "About | Lazaro Campos",
   description:
-    "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I also share insights on software architecture, backend development, and emerging technologies.",
+    "Learn more about Lazaro Campos, a backend developer from Cuba focused on Java, Spring Boot, software architecture, and building reliable digital products.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About | Lazaro Campos",
+    description:
+      "Learn more about Lazaro Campos, a backend developer from Cuba focused on Java, Spring Boot, software architecture, and building reliable digital products.",
+    url: "https://lazxdev.vercel.app/about",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About | Lazaro Campos",
+    description:
+      "Learn more about Lazaro Campos, a backend developer from Cuba focused on Java, Spring Boot, software architecture, and building reliable digital products.",
+  },
 };
 
 export default async function About() {

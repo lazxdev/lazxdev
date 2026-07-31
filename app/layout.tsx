@@ -8,9 +8,34 @@ import { ThemeProvider } from "@/app/components/ThemeProvider";
 import Navigation from "@/app/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Lazaro Campos",
+  metadataBase: new URL("https://lazxdev.vercel.app/"),
+  title: {
+    default: "Lazaro Campos | Backend Developer",
+    template: "%s | Lazaro Campos",
+  },
   description:
-    "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I also share insights on software architecture, backend development, and emerging technologies."
+    "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I share insights on backend engineering, software architecture, and developer experience.",
+  alternates: {
+    canonical: "/",
+  },
+  verification: {
+    google: "TkOwYvcBKjp13W5dL9o59PIkljeQT1HI9qkhcmuZMoI",
+  },
+  openGraph: {
+    title: "Lazaro Campos | Backend Developer",
+    description:
+      "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I share insights on backend engineering, software architecture, and developer experience.",
+    url: "https://lazxdev.vercel.app/",
+    siteName: "Lazaro Campos",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lazaro Campos | Backend Developer",
+    description:
+      "Backend Developer based in Cuba, passionate about building scalable applications with Java and Spring. I share insights on backend engineering, software architecture, and developer experience.",
+  },
 };
 
 export default function RootLayout({

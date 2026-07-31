@@ -1,5 +1,28 @@
+import type { Metadata } from "next";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import Link from "@/app/components/Link";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "Portfolio and developer profile of Lazaro Campos, a backend engineer focused on Java, Spring Boot, scalable APIs, and software architecture.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Lazaro Campos | Backend Developer",
+    description:
+      "Portfolio and developer profile of Lazaro Campos, a backend engineer focused on Java, Spring Boot, scalable APIs, and software architecture.",
+    url: "https://lazxdev.vercel.app/",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lazaro Campos | Backend Developer",
+    description:
+      "Portfolio and developer profile of Lazaro Campos, a backend engineer focused on Java, Spring Boot, scalable APIs, and software architecture.",
+  },
+};
 
 export default function Home() {
 
