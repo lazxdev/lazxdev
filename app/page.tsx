@@ -62,7 +62,7 @@ export default function Home() {
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/lázaro-campos-858864298/"
+            href="https://www.linkedin.com/in/lazaro-campos/"
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
           >
             LinkedIn

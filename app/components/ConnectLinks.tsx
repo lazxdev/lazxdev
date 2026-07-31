@@ -30,7 +30,7 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/lázaro-campos-858864298/",
+    href: "https://www.linkedin.com/in/lazaro-campos/",
     icon: <FaLinkedin />,
   },
   {
