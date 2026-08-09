@@ -10,7 +10,7 @@ import iso8583AnalyzerLogo from "public/projects/iso8583-analyzer/iso8583-analyz
 import iso8583Analyzer from "public/projects/iso8583-analyzer/iso8583-analyzer.png";
 
 export const metadata: Metadata = {
-  title: "Projects | Lazaro Campos",
+  title: "Projects",
   description:
     "Explore projects built by Lazaro Campos, including Java, Spring Boot, TypeScript, and full-stack tools for monitoring, authentication, and developer productivity.",
   alternates: {
