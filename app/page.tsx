@@ -3,7 +3,6 @@ import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import Link from "@/app/components/Link";
 
 export const metadata: Metadata = {
-  title: "Home",
   description:
     "Portfolio and developer profile of Lazaro Campos, a backend engineer focused on Java, Spring Boot, scalable APIs, and software architecture.",
   alternates: {

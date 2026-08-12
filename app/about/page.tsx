@@ -14,7 +14,7 @@ import me from "public/gallery/me.png";
 import Greeting from "./components/Greeting";
 
 export const metadata: Metadata = {
-  title: "About | Lazaro Campos",
+  title: "About",
   description:
     "Learn more about Lazaro Campos, a backend developer from Cuba focused on Java, Spring Boot, software architecture, and building reliable digital products.",
   alternates: {
