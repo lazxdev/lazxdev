@@ -92,10 +92,9 @@ export default async function About() {
               passionate about building scalable systems and solving complex problems through clean, reliable code.
             </p>
             <p>
-              My interest in programming started at a young age, 
-              but everything truly clicked when I discovered Java while creating Minecraft mods. 
-              Since then, I&apos;ve specialized in backend development, working primarily with Java, 
-              Spring Boot, relational databases, and cloud technologies to build modern applications.
+              My career has been driven by a strong interest in backend development and software architecture.  
+              I primarily work with Java and Spring Boot, building APIs and backend systems backed by relational databases and modern cloud technologies.  
+              I&apos;m particularly interested in designing software that is maintainable, scalable, and built to evolve.
             </p>
             <p>
               Beyond my day job, I enjoy building open-source projects, 
