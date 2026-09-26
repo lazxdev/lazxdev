@@ -40,7 +40,7 @@ export default function Home() {
             On the side, I create content about software engineering, technology, and my journey as a developer.
           </p>
           <a
-            href="/CV.pdf"
+            href="/cv.pdf"
             download
             className="inline-flex animate-in items-center gap-2 rounded-full bg-secondary px-4 py-2 text-sm font-medium text-primary no-underline transition hover:bg-tertiary"
             style={{ "--index": 1 } as React.CSSProperties}
